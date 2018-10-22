@@ -48,7 +48,7 @@ class NormalParticle implements Particle{
     X = (Math.random()* 300);
     Y = (Math.random() * 100) + 300;
     Speed = Math.random() * 2 + 1;
-    Angle = Math.random() * -1;
+    Angle = Math.random() * -1 * Math.PI;
     Color = color(255, 100);
   }
   public void move(){
@@ -67,7 +67,7 @@ class OddballParticle implements Particle{
   OddballParticle(){
     X = Y = 200;
     Speed = Math.random()* 50;
-    Angle = Math.random()* 2;
+    Angle = Math.random()* 2 * Math.PI;
     Color = color(255, 200);
   }
   public void move(){
@@ -86,7 +86,7 @@ class Jumbo extends NormalParticle{
   Jumbo(){
     X = Y = 200;
     Speed = Math.random()* 30;
-    Angle = Math.random()* -1;
+    Angle = Math.random()* -1 * Math.PI;
     Color = color(255, 100);
   }
   public void move(){
