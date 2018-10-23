@@ -31,8 +31,8 @@ void draw(){
   if (transparency > 0) { 
     transparency -= 1; 
   }
-  image(a, 0, 210, 300, 200);
   image(b, 130, 260, 280, 200);
+  image(a, 0, 210, 300, 200);
 }
 
 interface Particle{
