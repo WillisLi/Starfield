@@ -29,7 +29,7 @@ void draw(){
     aBunch[i].show();
   }
   if (transparency > 0) { 
-    transparency -= 0.7; 
+    transparency -= 1; 
   }
   tint(255, transparency);
   image(a, 0, 210, 300, 200);
